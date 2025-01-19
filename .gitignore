@@ -24,4 +24,3 @@ dist-ssr
 *.sw?
 
 # custom files and directories
-src/articles/

@@ -24,3 +24,9 @@ dist-ssr
 *.sw?
 
 # custom files and directories
+portfolio.png
+public/sr.svg
+public/sr.png
+public/vite.svg
+
+src/articles

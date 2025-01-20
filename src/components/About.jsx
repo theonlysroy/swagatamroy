@@ -6,7 +6,7 @@ import { SiExpress, SiMongodb, SiPostgresql } from "react-icons/si";
 export default function About() {
   return (
     <div id="home" className="mt-20 w-full">
-      <div className="grid grid-cols-2 gap-4 px-5">
+      <div className="grid sm:grid-cols-2 gap-4 px-5">
         {/* about me */}
         <div className="flex flex-col gap-3 col-span-1 justify-center">
           <h2 className="text-4xl font-semibold">Swagatam Roy</h2>

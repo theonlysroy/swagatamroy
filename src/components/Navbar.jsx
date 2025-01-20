@@ -4,7 +4,7 @@ import DarkModeToggle from "./DarkModeToggle";
 export default function Navbar() {
   return (
     <div className="sticky top-0 z-50 backdrop-blur w-full py-5">
-      <div className="w-full flex justify-between">
+      <div className="w-full flex justify-between items-end">
         {/* links */}
         <ul className="flex gap-6 items-center text-lg">
           <a href="#home">
@@ -24,11 +24,11 @@ export default function Navbar() {
           </a>
         </ul>
         {/* theme toggle + github link */}
-        <div className="flex items-center justify-end gap-4">
+        <div className="flex gap-4 justify-between items-baseline">
           <span className="cursor-pointer hover:text-orange-400">
             {" "}
             <a href="https://github.com/theonlysroy" target="_blank">
-              <FiGithub size={24} />
+              <FiGithub size={20} />
             </a>{" "}
           </span>
           <span className="cursor-pointer hover:text-orange-400">

@@ -27,7 +27,7 @@ export default function Projects() {
 function ProjectCard({ project, index, isLastIndex }) {
   return (
     <div
-      className={`bg-transparent dark:bg-neutral-800 w-1/2 p-4 hover:shadow-md hover:shadow-orange-400 transition-all duration-300  ${
+      className={`bg-transparent dark:bg-neutral-800 w-full sm:w-1/2 p-4 hover:shadow-md hover:shadow-orange-400 transition-all duration-300  ${
         index % 2 === 1 ? "" : "border-r"
       } ${isLastIndex ? "" : "border-b"} border-dashed border-neutral-600`}
     >

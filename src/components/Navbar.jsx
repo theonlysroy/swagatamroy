@@ -4,7 +4,7 @@ import DarkModeToggle from "./DarkModeToggle";
 export default function Navbar() {
   return (
     <div className="sticky top-0 z-50 backdrop-blur w-full py-5">
-      <div className="w-full flex justify-between items-end">
+      <div className="w-full flex justify-between items-end px-5">
         {/* links */}
         <ul className="flex gap-6 items-center text-lg">
           <a href="#home">

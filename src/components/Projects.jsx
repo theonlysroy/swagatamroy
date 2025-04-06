@@ -37,6 +37,25 @@ function ProjectCard({ project, index, isLastIndex }) {
       <p className="text-gray-600 dark:text-gray-400 my-2">
         {project?.description || "A small description for the dummy project"}
       </p>
+      <div className="py-2 flex items-center">
+        <span className="space-x-2">
+          {Array.isArray(project?.techStack) &&
+            project?.techStack.length > 0 &&
+            project?.techStack.map((tech) =>
+              tech === "express" ? (
+                <i
+                  key={tech}
+                  className={`devicon-${tech}-original text-xl`}
+                ></i>
+              ) : (
+                <i
+                  key={tech}
+                  className={`devicon-${tech}-plain colored text-xl`}
+                ></i>
+              ),
+            )}
+        </span>
+      </div>
       <div className="mt-4 flex justify-between items-center">
         <a
           href={project?.github || "https://github.com/theonlysroy"}

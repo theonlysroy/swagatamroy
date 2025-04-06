@@ -1,7 +1,7 @@
-import { IoLogoJavascript } from "react-icons/io5";
-import photo from "../assets/profileImg.jpeg";
 import { FaGitAlt, FaNodeJs, FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
 import { SiExpress, SiMongodb, SiPostgresql } from "react-icons/si";
+import photo from "../assets/profileImg.jpeg";
 
 export default function About() {
   return (
